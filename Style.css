@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 1rem 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 2rem 10%;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+  }
+  
+  .project {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .project img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .project h3 {
+    margin-top: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+  }
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    display: none;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .back-to-top.visible {
+    display: block;
+  }
+  
+  .back-to-top:hover {
+    opacity: 1;
+  }
+  
+  /* Dark Mode Toggle */
+  .dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .dark-mode-toggle:hover {
+    opacity: 1;
+  }
+  
+  /* Dark Mode Styling */
+  .dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  
+  .dark-mode header,
+  .dark-mode nav,
+  .dark-mode footer {
+    background-color: #333;
+    color: white;
+  }
+  
+  .dark-mode .project {
+    background-color: #444;
+    color: white;
+  }
+  
+  .dark-mode a {
+    color: #1e90ff;
+  }
+    
